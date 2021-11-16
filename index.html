@@ -6,13 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Traffic Light</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .red {
+            background-color: red;
+            width: 33.33%;
+            height: 100%;
+        }
+
+        .yellow {
+            background-color: yellow;
+            width: 33.33%;
+            height: 100%;
+        }
+
+        .green {
+            background-color: green;
+            width: 33.33%;
+            height: 100%;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+    </style>
 </head>
 
 <body>
     <div class="container">
-        <div class="red" color="red"></div>
-        <div class="yellow" color="yellow"></div>
-        <div class="green" color="green"></div>
+        <div class="light red" color="red"></div>
+        <div class="light yellow" color="yellow"></div>
+        <div class="light green" color="green"></div>
     </div>
 </body>
 
